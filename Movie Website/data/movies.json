@@ -1,0 +1,61 @@
+{
+  "featured": [
+    {
+      "id": "f1",
+      "title": "Neon Horizon",
+      "year": "2025",
+      "rating": "PG-13",
+      "runtime": "1h 52m",
+      "genre": ["Action", "Sci-Fi"],
+      "backdrop": "assets/featured-neon-horizon.jpg"
+    },
+    {
+      "id": "f2",
+      "title": "Midnight Protocol",
+      "year": "2024",
+      "rating": "R",
+      "runtime": "2h 06m",
+      "genre": ["Thriller", "Cyberpunk"],
+      "backdrop": "assets/featured-midnight-protocol.jpg"
+    },
+    {
+      "id": "f3",
+      "title": "Ghost Circuit",
+      "year": "2023",
+      "rating": "PG-13",
+      "runtime": "1h 38m",
+      "genre": ["Mystery", "Drama"],
+      "backdrop": "assets/featured-ghost-circuit.jpg"
+    }
+  ],
+  "rows": [
+    {
+      "title": "Trending Now",
+      "items": [
+        { "id": "t1", "title": "Arc Light", "rating": "PG-13", "poster": "assets/poster-arc-light.jpg" },
+        { "id": "t2", "title": "Zero Day", "rating": "R", "poster": "assets/poster-zero-day.jpg" },
+        { "id": "t3", "title": "Neon Run", "rating": "PG", "poster": "assets/poster-neon-run.jpg" },
+        { "id": "t4", "title": "Blackout", "rating": "PG-13", "poster": "assets/poster-blackout.jpg" },
+        { "id": "t5", "title": "Prism City", "rating": "PG-13", "poster": "assets/poster-prism-city.jpg" }
+      ]
+    },
+    {
+      "title": "Action",
+      "items": [
+        { "id": "a1", "title": "Heat Sink", "rating": "PG-13", "poster": "assets/poster-heat-sink.jpg" },
+        { "id": "a2", "title": "Pulse Raid", "rating": "R", "poster": "assets/poster-pulse-raid.jpg" },
+        { "id": "a3", "title": "Vector Strike", "rating": "PG-13", "poster": "assets/poster-vector-strike.jpg" },
+        { "id": "a4", "title": "Shockwave", "rating": "PG-13", "poster": "assets/poster-shockwave.jpg" }
+      ]
+    },
+    {
+      "title": "Sci-Fi",
+      "items": [
+        { "id": "s1", "title": "Chromatic", "rating": "PG", "poster": "assets/poster-chromatic.jpg" },
+        { "id": "s2", "title": "Ether Line", "rating": "PG-13", "poster": "assets/poster-ether-line.jpg" },
+        { "id": "s3", "title": "Quantum Alley", "rating": "PG-13", "poster": "assets/poster-quantum-alley.jpg" },
+        { "id": "s4", "title": "Neuro Mesh", "rating": "PG-13", "poster": "assets/poster-neuro-mesh.jpg" }
+      ]
+    }
+  ]
+}

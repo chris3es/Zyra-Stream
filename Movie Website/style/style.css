@@ -1,0 +1,121 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #0a0d12; /* cinematic dark */
+  color: #eaf2ff;
+  margin: 0;
+}
+
+/* Header */
+.site-header {
+  text-align: center;
+  padding: 20px;
+  border-bottom: 1px solid #1b2330;
+}
+.site-header h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin: 0;
+  color: #00d1ff; /* accent brand color */
+}
+.site-header nav {
+  margin-top: 10px;
+}
+.site-header nav a {
+  margin: 0 12px;
+  color: #00d1ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+.site-header nav a:hover {
+  color: #ff6a00; /* hover accent */
+}
+
+/* Hero banner */
+.hero {
+  position: relative;
+  text-align: center;
+  background: url('assets/hero-movie.jpg') center/cover no-repeat;
+  color: #fff;
+  padding: 80px 20px;
+}
+.hero h2 {
+  font-size: 36px;
+  margin-bottom: 12px;
+}
+.hero p {
+  max-width: 600px;
+  margin: 0 auto 20px;
+  font-size: 18px;
+  color: #eaf2ff;
+}
+.hero .btn {
+  padding: 12px 24px;
+  margin: 0 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 6px;
+}
+.btn-primary {
+  background: #ff6a00;
+  color: #fff;
+}
+.btn-secondary {
+  background: #00d1ff;
+  color: #0a0d12;
+}
+
+/* Content area */
+.content {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+.section-title {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  border-left: 4px solid #00d1ff;
+  padding-left: 8px;
+}
+
+/* Movie grid */
+.movie-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 20px;
+}
+.movie-card {
+  background: #11161d;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
+  transition: transform 0.2s ease;
+}
+.movie-card:hover {
+  transform: scale(1.05);
+}
+.movie-card img {
+  width: 100%;
+  display: block;
+}
+.movie-card .info {
+  padding: 10px;
+}
+.movie-card .title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 6px;
+}
+.movie-card .meta {
+  font-size: 14px;
+  color: #8ea3b0;
+}
+
+/* Footer */
+.site-footer {
+  text-align: center;
+  padding: 20px;
+  color: #8ea3b0;
+  border-top: 1px solid #1b2330;
+}

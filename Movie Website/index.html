@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MovieHub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <h1>MovieHub</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Movies</a>
+      <a href="#">Series</a>
+      <a href="#">My List</a>
+    </nav>
+  </header>
+
+  <!-- Hero banner -->
+  <section class="hero">
+    <h2>Featured Movie: Glass City</h2>
+    <p>A courier navigates a city of reflections where every decision echoes. Truth shatters when a job goes wrong.</p>
+    <button class="btn btn-primary" id="playHero">Watch Now</button>
+    <button class="btn btn-secondary" id="addHero">Add to List</button>
+  </section>
+
+  <!-- Content -->
+  <div class="content">
+    <h3 class="section-title">Trending Now</h3>
+    <div class="movie-grid" id="trendingGrid"></div>
+
+    <h3 class="section-title">New Releases</h3>
+    <div class="movie-grid" id="newGrid"></div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <p>© 2025 MovieHub</p>
+    <p>Terms • Privacy • Help</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
